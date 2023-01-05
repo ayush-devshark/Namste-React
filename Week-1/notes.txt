@@ -1,0 +1,23 @@
+1. What is Emmet ?
+    - Emmet is plugin for generating HTML markup, CSS with short expressions
+
+2. Difference between Library and Framework ?
+    - Library are like functions, reusable code written by someone with lots of flexibility on using it. Developers are in control of flow where they want to use library code. We control how to design system, can plugin library code where required.
+
+    - Framework are also code written by someone else, but flow is often controlled by constraints of framework one is using. Design of system is usually controlled by framework. Its like fill in the blanks, we write code where framework allows us to do.
+
+3. What is CDN? Why do we use it ?
+    - Content Delivery Network: content kept on globally distributed servers for faster access to resources like HTML, CSS, JS etc.
+    - We use it because 
+        1. faster load time 
+        2. reduce bandwidth cost by optimizations and caching, prevents amount of data origin server provides
+        3. handle more traffic,
+        4. improves security prevents DDoS attack.
+
+4. Why is React known as React ?
+    - 'React' is library for building frontend of website, which serves as View in MVC framework. View must react to data changes or user-events like mouse click etc. That's why it is called 'React'.
+
+5. What is crossorigin in script tag ?
+    - 'crossorigin' is for handling cors request. It is for sharing resources from one domain to another domain.
+    - Have two attributes 'anonymous' which is default and will be sent without passing credential information.
+    - 'use-credential' - cross origin request will be sent with credentials, cookies and certificate.
