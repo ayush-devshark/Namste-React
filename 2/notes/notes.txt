@@ -1,0 +1,25 @@
+1. What is `NPM` ?
+    - According to official docs, npm is world's largest software registry, where open source developers share and borrow packages. It is also used by organizations to manage private development as well.
+    - Though 'npm' abbreviation does not have full form. Most developers refer to it as Node package manager, as it has registry of JavaScript packages, provides us with CLI for sharing such packages.
+
+2. What is `Parcel/Webpack` ? Why do we need it ? 
+    - Webpack/Parcel are static module bundlers for modern JS applications.
+    - When webpack processes your applications it build internal dependency graph from one or more entry points
+    - and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
+    - Since version 4.0.0, webpack does not require a configuration file 
+
+    - We need webpack to bundle our JS applications both (CommonJS and ESM), and it can also be extended to support many different assets such as images, fonts, and stylesheets.
+    - With right plugins, we get more functionalities like minification, image optimization, polyfill our code, hot module replacement, tree shaking etc.
+
+3. What is `.parcel-cache` ?
+    - Parcel caches everything it builds to disk, so that once the server gets restarted it builds only files that were changes from last time it ran.
+    - Parcel automatically tracks all the files, configuration, plugins, dev dependencies involved in build. It granularly invalidates the cache when something changes. 
+    - Example - when some config file is changed, all the source files that rely on that config file will be rebuilt.
+
+4. What is `npx` ?
+    - Its a command, which helps us to run a command in npm package that either installed locally, or fetched remotely.
+    - it similar to command 'npm run'
+
+5. What is difference between `dependencies` vs `devDependencies` ?
+    - dependencies - packages required by application in production  
+    - devDependencies - packages only needed for local development and testing.

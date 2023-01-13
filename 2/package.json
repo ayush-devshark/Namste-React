@@ -4,7 +4,7 @@
   "description": "Day 2 of course",
   "scripts": {
     "test": "jest",
-    "start": "npx parcel index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "author": "Ayush",
