@@ -5,11 +5,11 @@ import ReactDOM from 'react-dom/client';
 // const h1 = React.createElement('h1', { key: '0' }, 'H1');
 // const h2 = React.createElement('h3', { key: '1' }, 'H3');
 // const h3 = React.createElement('h3', { key: '2' }, 'H3');
-// const container = React.createElement('div', { className: 'title' }, [
+// const container = React.createElement('div', { className: 'title' }, 
 //   h1,
 //   h2,
 //   h3,
-// ]);
+// );
 
 //* Using JSX element
 // const heading1 = <h1>H1</h1>;
@@ -73,3 +73,4 @@ const Header = () => {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(Container());
 root.render(<Header />);
+// root.render(container);
